@@ -15,9 +15,4 @@ class ReplaceLetter{
         System.out.println("String with replacement :: " + result);
     }
 }
-public class Question1_3 {
-    public static void main(String[] args) {
-        ReplaceLetter replaceLetter = new ReplaceLetter();
-        replaceLetter.replaceVowel();
-    }
-}
+

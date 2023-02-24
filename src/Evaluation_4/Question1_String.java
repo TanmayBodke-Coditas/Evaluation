@@ -10,7 +10,7 @@ class StringQue1_1{
         String input = "Hii, This is Tanmay!!";
         int count = 0;
 
-        StringTokenizer str = new StringTokenizer(input , ", !", true);
+        StringTokenizer str = new StringTokenizer(input , ", !");
         while (str.hasMoreTokens()) {
             str.nextElement();
             count++;
@@ -19,9 +19,4 @@ class StringQue1_1{
         System.out.println("Number of tokens are  :: " + count);
     }
 }
-public class Question1_String {
-    public static void main(String[] args) {
-        StringQue1_1 stringQue11 = new StringQue1_1();
-        stringQue11.count();
-    }
-}
+

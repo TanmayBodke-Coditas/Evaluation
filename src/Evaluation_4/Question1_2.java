@@ -19,11 +19,8 @@ class VowelsAndConsonents{
 
 
 }
-public class Question1_2 {
-    public static void main(String[] args) {
-        VowelsAndConsonents vowelsAndConsonents = new VowelsAndConsonents();
-        vowelsAndConsonents.countAndPrintVowels();
-    }
 
 
-}
+
+
+
