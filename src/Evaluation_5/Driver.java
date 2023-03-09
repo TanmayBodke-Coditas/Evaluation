@@ -21,7 +21,7 @@ public class Driver {
             switch (choice){
                 case 1:
                     //Prepaid User
-
+                    prepaid.Recharge();
 
 
                     break;
